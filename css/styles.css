@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1188px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -33,7 +33,7 @@ ol {
 img {
   display: block;
 }
-.link {
+.link { padding: 24px 0;
   text-decoration: none;
 }
 .list {
@@ -108,6 +108,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px
   color: #434455;
 }
 
@@ -196,11 +197,12 @@ p.text {
 
 /* `````MAIN````` */
 /* `````HERO````` */
-section.hero {
+section.hero {padding: 188px 0;
   background-color: #2e2f42;
 }
 
 .title-hero {
+  max-width: 496px
   padding-top: 188px;
   font-size: 56px;
   line-height: 1.07;
@@ -215,7 +217,10 @@ section.hero {
 }
 .button-hero {
   padding: 16px 32px;
-
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
   margin-bottom: 188px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
