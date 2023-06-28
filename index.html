@@ -16,39 +16,44 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./images/favicon/40web-development_102111.png" />
   </head>
   <!-- BODY -->
   <body class="body">
     <!-- HEADER -->
     <header class="header">
       <div class="container header-container">
-        <!-- NAVIGATION -->
-        <nav class="navigation">
-          <!-- LOGO HEAD-->
-          <a class="logo link" href="./index.html"
+        <!-- HEADER NAVIGATION -->
+        <nav class="nav header-nav">
+          <a class="link logo-link" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
           >
-          <ul class="menu list menu-header">
-            <li class="menu-item">
-              <a href="./index.html" class="link">Studio</a>
+          <ul class="list header-list">
+            <li class="item studio-item">
+              <a href="./index.html" class="link studio-link">Studio</a>
             </li>
-            <li class="menu-item">
-              <a href="./portfolio.html" class="link">Portfolio</a>
+            <li class="item portfolio-item">
+              <a href="./portfolio.html" class="link portfolio-link"
+                >Portfolio</a
+              >
             </li>
-            <li class="menu-item"><a href="" class="link">Contacts</a></li>
+            <li class="list contacts-item">
+              <a href="" class="link contacts-link">Contacts</a>
+            </li>
           </ul>
         </nav>
         <!-- ADDRESS -->
         <address class="address">
-          <ul class="menu-contact list">
-            <li class="menu-item">
-              <a class="contact link" href="mailto:info@devstudio.com"
+          <ul class="list address-list">
+            <li class="item address-item">
+              <a
+                class="link contact mail-contact"
+                href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-
-            <li class="menu-item">
-              <a class="contact link" href="tel:+110001111111"
+            <li class="item address-item">
+              <a class="link contact tel-contact" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -59,7 +64,7 @@
     <!-- MAIN -->
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <section class="section hero-section">
         <div class="container">
           <h1 class="title-hero">
             Effective Solutions
@@ -69,34 +74,36 @@
         </div>
       </section>
       <!-- GOALS -->
-      <section class="goals section">
-        <div class="container goals">
-          <h2 class="title" visually-hidden>Goals</h2>
-          <ul class="menu list">
-            <li class="menu-item">
+      <section class="section goals-section">
+        <div class="container goals-container">
+          <h2 class="title goals-title" hidden>Goals</h2>
+          <ul class="list goals-list">
+            <li class="item goals-list">
               <h3 class="title-descriptions">Strategy</h3>
-              <p class="text">
+              <p class="text goals-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="menu-item">
+            <li class="item goals-list">
               <h3 class="title-descriptions">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="menu-item">
+            <li class="item goals-list">
               <h3 class="title-descriptions">Diligence</h3>
-              <p class="text">
+              <p class="text goals-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="menu-item">
-              <h3 class="title-descriptions">Technologies</h3>
-              <p class="text">
+            <li class="item goals-list">
+              <h3 class="title-descriptions goals-descriprions">
+                Technologies
+              </h3>
+              <p class="text goals-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -104,32 +111,32 @@
           </ul>
         </div>
       </section>
-      <!-- WHAT WE DO (wwd) -->
-      <section class="wwd section">
-        <div class="container">
-          <h2 class="title">What are we doing</h2>
-          <ul class="menu list">
-            <li class="menu-item menu-wwd">
+      <!--OPPORTUNITIES-->
+      <section class="section opportunities-section">
+        <div class="container opportunities-container">
+          <h2 class="title opportunities-title">What are we doing</h2>
+          <ul class="list opportunities-list">
+            <li class="item opportunitie-item">
               <img
-                class="image"
+                class="image opportunitie-image"
                 src="./images/rectangle71.jpg"
                 alt="An example of work on a computer"
                 width="360"
                 height="300"
               />
             </li>
-            <li class="menu-item">
+            <li class="item opportunitie-item">
               <img
-                class="image"
+                class="image opportunitie-image"
                 src="./images/rectangle72.jpg"
                 alt="An example of work on a mobile"
                 width="360"
                 height="300"
               />
             </li>
-            <li class="menu-item">
+            <li class="item opportunitie-item">
               <img
-                class="image"
+                class="image opportunitie-image"
                 src="./images/rectangle73.jpg"
                 alt="A man holds a mobile phone in his hand against a laptop"
                 width="360"
@@ -140,53 +147,85 @@
         </div>
       </section>
       <!-- TEAM -->
-      <section class="team section">
-        <div class="container">
-          <h2 class="title">Our Team</h2>
-          <ul class="menu list">
-            <li class="menu-item">
-              <img
-                class="image"
-                src="./images/people/mark.jpg"
-                alt="A dark-haired, bearded man in a blue shirt"
-                width="264"
-                height="260"
-              />
-              <h3 class="title-descriptions">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+      <section class="section team-section">
+        <div class="container team-container">
+          <h2 class="title team-title">Our Team</h2>
+          <ul class="list team-list">
+            <li class="item team-item">
+              <div class="team-card">
+                <div class="img-card">
+                  <img
+                    class="image team-image"
+                    src="./images/people/mark.jpg"
+                    alt="A dark-haired, bearded man in a blue shirt"
+                    width="264"
+                    height="260"
+                  />
+                </div>
+
+                <div class="card-content">
+                  <h3 class="title-descriptions team-descriptions">
+                    Mark Guerrero
+                  </h3>
+                  <p class="text team-text">Product Designer</p>
+                </div>
+              </div>
+              <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
             </li>
-            <li class="menu-item">
-              <img
-                class="image"
-                src="./images/people/tom.jpg"
-                alt="A blond-haired man with a week's stubble in a blue shirt"
-                width="264"
-                height="260"
-              />
-              <h3 class="title-descriptions">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+            <li class="item team-item">
+              <div class="team-card">
+                <div class="img-card">
+                  <img
+                    class="image team-image"
+                    src="./images/people/tom.jpg"
+                    alt="A blond-haired man with a week's stubble in a blue shirt"
+                    width="264"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="title-descriptions team-descriptions">Tom Ford</h3>
+                  <p class="text team-text">Frontend Developer</p>
+                </div>
+              </div>
             </li>
-            <li class="menu-item">
-              <img
-                class="image"
-                src="./images/people/camila.jpg"
-                alt="Dark-haired girl in a pink blouse"
-                width="264"
-                height="260"
-              />
-              <h3 class="title-descriptions">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+            <li class="item team-item">
+              <div class="team-card">
+                <div class="img-card">
+                  <img
+                    class="image team-image"
+                    src="./images/people/camila.jpg"
+                    alt="Dark-haired girl in a pink blouse"
+                    width="264"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="title-descriptions team-descriptions">
+                    Camila Garcia
+                  </h3>
+                  <p class="text team-text">Marketing</p>
+                </div>
+              </div>
             </li>
-            <li class="menu-item">
-              <img
-                class="image"
-                src="./images/people/daniel.jpg"
-                alt="Dark-haired man with 2-week stubble wearing a grey T-shirt"
-                width="264"
-                height="260"
-              />
-              <h3 class="title-descriptions">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+            <li class="item team-item">
+              <div class="team-card">
+                <div class="img-card">
+                  <img
+                    class="image team-image"
+                    src="./images/people/daniel.jpg"
+                    alt="Dark-haired man with 2-week stubble wearing a grey T-shirt"
+                    width="264"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="title-descriptions team-descriptions">
+                    Daniel Wilson
+                  </h3>
+                  <p class="text team-text">UI Designer</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -194,9 +233,9 @@
     </main>
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <!-- LOGO FOOTER -->
-        <a class="logo link footer-link" href="./index.html"
+        <a class="link logo-link footer-link" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >
         <p class="footer-text">
