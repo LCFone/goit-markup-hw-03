@@ -246,7 +246,7 @@ button:focus {
   padding: 120px 0;
 }
 
-.visually-hidden {
+h1 > .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
