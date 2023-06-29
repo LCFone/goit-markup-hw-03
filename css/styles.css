@@ -137,8 +137,8 @@ button:focus {
 
 /* `````HEADER````` */
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -161,10 +161,17 @@ button:focus {
 }
 
 .nav-link {
+  display: block;
   padding: 24px 0;
 }
 
 /* ``````ADDRESS`````` */
+
+.address {
+  margin-left: auto;
+  padding: 40px 0;
+  font-style: normal;
+}
 .address-list {
   display: flex;
   gap: 40px;
@@ -176,18 +183,13 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
-.address {
-  margin-left: auto;
-}
+
 .contact {
   font-style: normal;
   font-weight: 400;
   color: var(--secondary-color);
 }
 
-.address {
-  font-style: normal;
-}
 /* ,,,,,address,,,,, */
 /* ,,,,,header,,,,, */
 
@@ -270,11 +272,6 @@ button:focus {
 
 .goals-descriprions {
   margin-bottom: 8px;
-}
-
-.goals-text {
-  min-width: 264px;
-  min-height: 104px;
 }
 
 /* ,,,,,goals,,,, */
