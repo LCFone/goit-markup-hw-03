@@ -1,3 +1,7 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* .team-container * {outline: 1px solid tomato} * */
+/* div>h1{Hello world}+ul.top>li*5{doma}+p.pop>a.666[href="#"]{адреса} */
+
 /* `````ROOT````` */
 :root {
   --card-set-gap: 24px;
@@ -88,7 +92,6 @@ button:focus {
 
 .logo-link {
   display: flex;
-  margin-right: 76px;
 
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -128,9 +131,6 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
-
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* .team-container * {outline: 1px solid tomato} * */
 
 /* ,,,,,components,,,,, */
 
@@ -177,7 +177,7 @@ button:focus {
   color: var(--secondary-color);
 }
 .address {
-  margin: auto;
+  margin-left: auto;
 }
 .contact {
   font-style: normal;
@@ -243,7 +243,7 @@ button:focus {
 /* `````GOALS`````*/
 
 .goals-section {
-  padding: 120px 0;
+  padding: 120px 0 0 0;
 }
 
 .visually-hidden {
@@ -273,8 +273,8 @@ button:focus {
 }
 
 .goals-text {
-  max-width: 264px;
-  max-height: 104px;
+  min-width: 264px;
+  min-height: 104px;
 }
 
 /* ,,,,,goals,,,, */
