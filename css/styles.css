@@ -281,6 +281,7 @@ button:focus {
 
 /* `````OPPORTUNITIES`````` */
 .opportunities-section {
+  padding-bottom: 120px;
 }
 
 .opportunities-title {
@@ -304,7 +305,7 @@ button:focus {
 
 /* `````TEAM````` */
 .team-section {
-  padding: 120px 0;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
